@@ -1,8 +1,11 @@
 # shadowsocks-http-proxy
 
-🕸说明：shadowsocks http代理，解决在学习新技术(如: Kubernetes)需要配置命令行http代理问题。
+🕸说明：shadowsocks http代理
 
 ```
+部署架构：
+Client -----http_proxy/https_proxy----> Host（shadowsocks-http-proxy）-----aes-256-cfb-----> ShadowsSocks Server（Freedom!!!!!!!）
+
 用法
 
 1.config.json配置文件修改
