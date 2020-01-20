@@ -4,7 +4,7 @@
 
 ```
 部署架构：
-Client -----http_proxy/https_proxy----> Host（shadowsocks-http-proxy）-----aes-256-cfb-----> ShadowsSocks Server（Freedom!!!!!!!）
+Client---->http_proxy/https_proxy---> Host（shadowsocks-http-proxy）----aes-256-cfb---->ShadowsSocks Server（Freedom!!!!!!!）
 
 用法
 
